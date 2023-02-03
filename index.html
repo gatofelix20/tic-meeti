@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeti</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <!--Header-->
+
+    <header class="header contenedor">
+      <div class="header__logo">
+        <a href="index.html">
+            <img src="build/img/logo.png" alt="logo meeti">
+        </a>
+      </div>
+
+      <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--crear" href="#">Crear Grupo</a>
+        <a class="navegacion__enlace" href="#">Iniciar Sesion</a>
+        <a class="navegacion__enlace" href="#">Registrarse</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero__texto">Encuentra o Crea un grupo para compartir lo que más te gusta</h1>
+        <a class="hero__enlace" href="#">Obtener una cuenta</a>
+    </section>
+
+    <!--Formulario-->
+
+    <section class="busqueda">
+      <h2 class="busqueda__heading">Busca un grupo en tu ciudad
+      </h2>
+
+      <div class="contenedor">
+        <form class="formulario">
+
+          <select class="formulario__campo">
+            <option >Programación</option>
+            <option >Diseño</option>
+            <option >Negocios</option>
+            <option >Moda</option>
+            <option >Ejercicio y Salud</option>
+            <option >Fotografía</option>
+            <option >Comida</option>
+            <option >Diseño Interior</option>
+            <option >Café</option>
+            <option >Cine</option>
+            <option >Libros</option>
+            <option >Emprendimiento</option>
+          </select>
+
+          <input type="text" placeholder="Nombre Evento" class="formulario__campo">
+
+          <input type="text" placeholder="Ciudad o País" class="formulario__campo">
+
+          <input type="submit" value="Buscar" class="formulario__submit">
+        </form>
+      </div>
+    </section>
+
+    <!--Proximos Eventos-->
+
+    <main class="eventos contenedor">
+      <h2 class="eventos__heading">Próximos eventos</h2>
+
+      <div class="eventos__grid">
+
+        <div class="evento">
+          <a href="meeti.html">
+            <img src="build/img/imagen1.jpg" alt="imagen meeti" class="evento__imagen">
+
+            <div class="evento__contenido">
+              <p class="evento__fecha">Jueves 30 septiembre 2023</p>
+              <h3 class="evento__nombre">Ideas de Negocios</h3>
+
+              <div class="evento__autor">
+                <div class="evento__autor--imagen">
+                   <img src="build/img/perfil1.jpg" alt="imagen perfil">
+                </div>
+                <div class="evento__autor--informacion">
+                   <p class="evento__organizado--texto">Organizado por:</p>
+                   <p class="evento__organizado--nombre">Hector Ramirez</p>
+                </div>
+              </div>
+            </div><!--.evento--contenido-->
+          </a>
+        </div> <!--.Evento-->
+
+        <div class="evento">
+          <a href="meeti.html">
+            <img src="build/img/imagen2.jpg" alt="imagen meeti" class="evento__imagen">
+
+            <div class="evento__contenido">
+              <p class="evento__fecha">Lunes 02 de Octubre 2023</p>
+              <h3 class="evento__nombre">Bitcoin y otras Criptos</h3>
+
+              <div class="evento__autor">
+                <div class="evento__autor--imagen">
+                   <img src="build/img/perfil1.jpg" alt="imagen perfil">
+                </div>
+                <div class="evento__autor--informacion">
+                   <p class="evento__organizado--texto">Organizado por:</p>
+                   <p class="evento__organizado--nombre">Hector Ramirez</p>
+                </div>
+              </div>
+            </div><!--.evento--contenido-->
+          </a>
+        </div> <!--.Evento-->
+
+        <div class="evento">
+          <a href="meeti.html">
+            <img src="build/img/imagen3.jpg" alt="imagen meeti" class="evento__imagen">
+
+            <div class="evento__contenido">
+              <p class="evento__fecha">Miercoles 04 de Octubre 2023</p>
+              <h3 class="evento__nombre">Pizza paso a paso</h3>
+
+              <div class="evento__autor">
+                <div class="evento__autor--imagen">
+                   <img src="build/img/perfil2.jpg" alt="imagen perfi2">
+                </div>
+                <div class="evento__autor--informacion">
+                   <p class="evento__organizado--texto">Organizado por:</p>
+                   <p class="evento__organizado--nombre">Fabrizio Arenales</p>
+                </div>
+              </div>
+            </div><!--.evento--contenido-->
+          </a>
+        </div> <!--.Evento-->
+      </div>
+    </main>
+    
+</body>
+</html>
